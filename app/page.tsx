@@ -75,7 +75,7 @@ export default function Home() {
               {/* Countdown Timer */}
               <div className="mb-8 sm:mb-12 scale-75 sm:scale-90 lg:scale-100 relative z-10">
                 <FlipClockCountdown
-                  to={new Date("2026-01-05T00:00:00").getTime()}
+                  to={new Date("2026-02-28T00:00:00").getTime()}
                   labels={["DAYS", "HOUR", "MIN", "SECONDS"]}
                   labelStyle={{
                     fontSize: 11,
