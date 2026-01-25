@@ -42,7 +42,7 @@ export default function Home() {
                   <CircleCheckBig size={'60'} className="text-muted-foreground" />
                 </div>
                 <h1 className="text-4xl sm:text-6xl font-bold text-gray-900">
-                  Nous sommes en ligne ! 
+                  Nous sommes en ligne ! 🥳🎊
                 </h1>
                 <p className="text-xl sm:text-xl text-muted-foreground max-w-2xl">
                   Bienvenue sur le site officiel de Synthex. Découvrez nos
@@ -52,7 +52,7 @@ export default function Home() {
                 <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
                   <a
                     className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[148px]"
-                    href="#"
+                    href="https://agency-rho-blush.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -60,7 +60,7 @@ export default function Home() {
                   </a>
                   <a
                     className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-                    href="#"
+                    href="https://mukadi.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -75,7 +75,7 @@ export default function Home() {
               {/* Countdown Timer */}
               <div className="mb-8 sm:mb-12 scale-75 sm:scale-90 lg:scale-100 relative z-10">
                 <FlipClockCountdown
-                  to={new Date("2026-01-26T00:00:15").getTime()}
+                  to={new Date("2026-01-26T00:015:00").getTime()}
                   labels={["DAYS", "HOUR", "MIN", "SECONDS"]}
                   labelStyle={{
                     fontSize: 11,
